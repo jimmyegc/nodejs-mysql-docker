@@ -29,4 +29,4 @@ app.get("/ping", async (req,res) => {
 })
 
 app.listen(process.env.NODE_DOCKER_PORT)
-console.log("Server on port", process.env.NODE_DOCKER_PORT)
+console.log(`Server on port http://localhost:${process.env.NODE_DOCKER_PORT}`)
